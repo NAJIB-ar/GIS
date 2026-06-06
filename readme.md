@@ -52,32 +52,32 @@ Website untuk monitoring kabel pada Kota Madiun. Sesuai dengan program pemerinta
 
 ## 🔌 Dokumentasi API (Backend)
 
-Seluruh daftar rute (_routes_)
+Seluruh daftar rute (_routes_) di bawah ini menggunakan awalan `/api`.
 
 ### 1. Autentikasi (`AuthController`)
 
-| Method               | Endpoint                | Controller Action                      |
-| :------------------- | :---------------------- | :------------------------------------- |
-| `POST`[cite: 1]      | `api/register`[cite: 1] | `Api\AuthController@register`[cite: 1] |
-| `POST`[cite: 1]      | `api/login`[cite: 1]    | `Api\AuthController@login`[cite: 1]    |
-| `POST`[cite: 1]      | `api/logout`[cite: 1]   | `Api\AuthController@logout`[cite: 1]   |
-| `GET\|HEAD`[cite: 1] | `api/user`[cite: 1]     | `Api\AuthController@user`[cite: 1]     |
+| Method      | Endpoint       | Controller Action             |
+| :---------- | :------------- | :---------------------------- |
+| `POST`      | `api/register` | `Api\AuthController@register` |
+| `POST`      | `api/login`    | `Api\AuthController@login`    |
+| `POST`      | `api/logout`   | `Api\AuthController@logout`   |
+| `GET\|HEAD` | `api/user`     | `Api\AuthController@user`     |
 
 ### 2. Manajemen Providers (`ProviderController`)
 
-| Method               | Endpoint                      | Controller Action                         |
-| :------------------- | :---------------------------- | :---------------------------------------- |
-| `GET\|HEAD`[cite: 1] | `api/providers`[cite: 1]      | `Api\ProviderController@index`[cite: 1]   |
-| `POST`[cite: 1]      | `api/providers`[cite: 1]      | `Api\ProviderController@store`[cite: 1]   |
-| `PUT`[cite: 1]       | `api/providers/{id}`[cite: 1] | `Api\ProviderController@update`[cite: 1]  |
-| `DELETE`[cite: 1]    | `api/providers/{id}`[cite: 1] | `Api\ProviderController@destroy`[cite: 1] |
+| Method      | Endpoint             | Controller Action                |
+| :---------- | :------------------- | :------------------------------- |
+| `GET\|HEAD` | `api/providers`      | `Api\ProviderController@index`   |
+| `POST`      | `api/providers`      | `Api\ProviderController@store`   |
+| `PUT`       | `api/providers/{id}` | `Api\ProviderController@update`  |
+| `DELETE`    | `api/providers/{id}` | `Api\ProviderController@destroy` |
 
 ### 3. Manajemen Reports (`ReportController`)
 
-| Method               | Endpoint                           | Controller Action                            |
-| :------------------- | :--------------------------------- | :------------------------------------------- |
-| `GET\|HEAD`[cite: 1] | `api/reports`[cite: 1]             | `Api\ReportController@index`[cite: 1]        |
-| `POST`[cite: 1]      | `api/reports`[cite: 1]             | `Api\ReportController@store`[cite: 1]        |
-| `GET\|HEAD`[cite: 1] | `api/reports/{id}`[cite: 1]        | `Api\ReportController@show`[cite: 1]         |
-| `PUT`[cite: 1]       | `api/reports/{id}/status`[cite: 1] | `Api\ReportController@updateStatus`[cite: 1] |
-| `DELETE`[cite: 1]    | `api/reports/{id}`[cite: 1]        | `Api\ReportController@destroy`[cite: 1]      |
+| Method      | Endpoint                  | Controller Action                   |
+| :---------- | :------------------------ | :---------------------------------- |
+| `GET\|HEAD` | `api/reports`             | `Api\ReportController@index`        |
+| `POST`      | `api/reports`             | `Api\ReportController@store`        |
+| `GET\|HEAD` | `api/reports/{id}`        | `Api\ReportController@show`         |
+| `PUT`       | `api/reports/{id}/status` | `Api\ReportController@updateStatus` |
+| `DELETE`    | `api/reports/{id}`        | `Api\ReportController@destroy`      |
