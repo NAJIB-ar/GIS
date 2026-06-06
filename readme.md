@@ -21,11 +21,28 @@ Website untuk monitoring kabel pada Kota Madiun. Sesuai dengan program pemerinta
 
 ### Screenshot Aplikasi
 
+## Halaman Login
+
 ![Halaman Login](frontend/public/dokumentasi/menu%20login.png)
+
+## Dashboard Admin
+
 ![Dashboard Admin](frontend/public/dokumentasi/dashboard%20admin.png)
+
+## Halaman Laporan
+
 ![Halaman Laporan](frontend/public/dokumentasi/menu%20laporan.png)
+
+## Halaman Provider
+
 ![Halaman Provider](frontend/public/dokumentasi/menu%20provider.png)
+
+## Dashboard User
+
 ![Dashboard User](frontend/public/dokumentasi/menu%20user.png)
+
+## Halaman Laporan User
+
 ![Halaman Laporan User](frontend/public/dokumentasi/menu%20laporan%20user.png)
 
 ---
@@ -50,7 +67,13 @@ Website untuk monitoring kabel pada Kota Madiun. Sesuai dengan program pemerinta
 
 ---
 
-## 🔌 Dokumentasi API (Backend)
+## Database
+
+![Database](frontend/public/dokumentasi/database.png)
+
+---
+
+## Dokumentasi API (Backend)
 
 Seluruh daftar rute (_routes_) di bawah ini menggunakan awalan `/api`.
 
