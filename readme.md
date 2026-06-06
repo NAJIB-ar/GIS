@@ -77,8 +77,8 @@ Website untuk monitoring kabel pada Kota Madiun. Sesuai dengan program pemerinta
 
 Seluruh daftar rute (_routes_) di bawah ini menggunakan awalan `/api`.
 
-- dokumen json [Download Postman Collection (JSON)](postman\API%20Monitoring%20System.postman_collection.json)
-- [dokumen sukses test Postman](postman\dokumentasiPostman)
+- dokumen json [Download Postman Collection (JSON)](postman/API%20Monitoring%20System.postman_collection.json)
+- [Dokumen sukses test Postman](postman/dokumentasiPostman/)
 
 ### 1. Autentikasi (`AuthController`)
 
